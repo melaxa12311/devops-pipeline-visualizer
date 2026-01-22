@@ -5,7 +5,7 @@ pipeline {
 
     stage('Checkout') {
       steps {
-        git 'https://github.com/melaxa12311/devops-pipeline-visualizer.git'
+         git branch: 'main', url: 'https://github.com/melaxa12311/devops-pipeline-visualizer.git'
       }
     }
 
